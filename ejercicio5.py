@@ -21,5 +21,5 @@ while min(p1.hp, p2.hp)>0:
     f[0].hp -= da
     f = f[::-1]
 print(f'{f[1].name} no puede continuar...')
-pc.mostrar_ganador(f[1].name)
+pc.mostrar_ganador(f[0].name)
 
